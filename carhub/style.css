@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main{
+    padding: 0 8%;
+}
+nav{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo h1{
+width: 150px;
+font-size: 30px;
+cursor: pointer;
+color: yellow;
+}
+.nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.navl a{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 1px;
+    text-decoration: none;
+    padding: 3px 15px;
+    transition: 0.5s;
+}
+
+.navl a:hover{
+    padding: 11px;
+    background-color:rgb(81, 203, 237);
+}
+.btn{
+    padding-left: 50%;
+}
+.btn button{
+    padding: 17px 26px;
+    font-size: 15px;
+    background: yellow;
+    font-weight: 700;
+    border-radius: 13px;
+    border: none;
+    width: 120%;
+}
+.btn button:hover{
+    background: yellowgreen;
+}
+.content{
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #fff;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.search{
+    background: #fff;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    background: transparent;
+    width: 420px;
+    border: none;
+    font-size: 20px;
+    padding: 7px;
+    outline: none;
+}
+button{
+    padding: 15px 30px;
+    margin-left: 12%;
+    border: none;
+    border-radius: 13px;
+    border-top-left-radius: 0;
+    background: yellow;
+    font-size: 20px;
+
+}
+button:hover{
+    background: #88f70a;
+}
+.form{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    left: 67%;
+    background: #0e0d0d;
+    
+}
+.form name{
+    color: #ffff;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    padding: 13px 18px;
+    margin-top: 10px;
+    margin-left: 21px;
+    background: transparent;
+    border-bottom: 1px solid yellow;
+    font-size: 18px;
+    color: #fff;
+    
+}
+.link{
+    width: 75%;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 7px;
+}
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link1{
+    margin: 10%;
+}
+
+.link1 a{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2px;
+    
+}
+.link2 {
+    background: #fff;
+    width: 60%;
+    padding: 13px;
+    margin: 15%;
+}
+.link2 a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding-left: 8%;
+}
